@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harry and Harriet’s Hang-gliding Haven Services</title>
+<style>
+  /* CSS for aesthetic purposes */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #cae7ff;
+    font-size: 28px;
+    font-weight: bold;
+   
+  }
+  h2 {
+    color: #444;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  p {
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+  }
+  .contact {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .services {
+    margin-top: 20px;
+	}
+  
+  }
+</style>
+</head>
+<body>
+
+<h1>Harry and Harriet’s Hang-gliding Haven Services</h1>
+
+<img src="C:\Users\liamw\OneDrive\Documents\hangglider.jpg" alt="Hang-gliding Haven" width="300">
+
+
+<h2>Main Services</h2>
+<p class="services">
+  <strong>Hang-gliding Gear</strong>: We offer a wide range of hang-gliding equipment, from beginner to advanced.<br>
+  <strong>Gear Repair</strong>: At Harry and Harriet's, we take pride in our repair services. Here we have state of the art machines and highly qualified employees who will ensure that your gear goes back better than how it arrived.<br>
+  <strong>Training Courses</strong>: Learn from certified instructors to master the art of hang-gliding and skydiving.<br>
+<h2>Top Rates</h2>
+<ol> 
+  <li>1 Hour Package: $150</li>
+  <li>3 Hour Package: $400</li>
+  <li>Full Day Package: $1,150</li>
+</ol>
+<h2>Repair Fee's</h2>
+<ul>
+  <li>Glider Repair: $400</li>
+  <li>Harness Repair: $75</li>
+  <li>GPS/Radio Repair: $100</li>
+</ul>
+</p>
+
+<h2>Additional Offerings</h2>
+<ul class="services">
+  <li><em>Tandem Jumps</em>: Enjoy a tandem jump with our trained professional divers who collectivly have over 40 years of experince.</li>
+  <li><em>Equipment Rentals</em>: We provide high quality gear that will give you extra comfort and protection (Rental gear is included in the package).</li>
+</ul>
+
+<h2>Contact Us</h2>
+<p class="contact">
+  For inquiries or to book a session, <a href="mailto:liamwhite5504@gmail.com">Send Email</a>
+</p>
+<p class="contact">
+  For more information about our companies main services, <a href="C:\Users\liamw\OneDrive\Documents\Hang-gliding info_.pdf">Download PDF</a>
+
+
+</p>
+<a href="https://amitsundaram.github.io/mgmt382-project2/product_page.html" target="_blank">Visit our partner website</a>
+
+<p class="date">Last Updated: <span id="updateDate"></span></p>
+
+<script>
+  document.getElementById("updateDate").innerHTML = new Date().toLocaleDateString();
+</script>
+
+</body>
+</html>
