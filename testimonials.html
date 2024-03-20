@@ -65,12 +65,12 @@
 <a href="http://amitsundaram.github.io/mgmt382-project2" target="_blank">Visit Our Partner Website</a>
     
 <a href="https://www.yelp.com" target="_blank">To Leave a Review, Click Here!</a>    
-<p class="last-updated-italic"><i>Last Updated:</i> <span id="date"></span></p>
-
-<script>
-    // JavaScript to auto-update the date
-    document.getElementById("date").innerText = new Date().toDateString();
-</script>
+    <footer>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script> 
 
 </body>
 </html>
