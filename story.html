@@ -82,10 +82,12 @@
     <p><a href="https://amitsundaram.github.io/mgmt382-project2/product_page.html">Learn more about our team.</a></p>
     <p>Contact the management team at <a href="mailto:dhagerm@purdue.edu">dhagerm@purdue.edu</a>.</p>
     <img src="management-team.jpg" alt="Management Team" width="300">
-    <p>Last updated: <span id="date"></span></p>
-    <script>
-        document.getElementById('date').textContent = new Date().toLocaleDateString();
-    </script>
     <p><a href="management_team_info.docx" download>Download Team Info</a></p>
+    <footer>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script> 
 </body>
 </html>
