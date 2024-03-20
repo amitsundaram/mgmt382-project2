@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Harry and Harriet's Hang-Gliding Haven</title>
-</head>
-<body style="margin:0; padding:0; font-family: 'Arial', sans-serif;">
+<body style="margin:0; padding:20px; font-family: 'Arial', sans-serif;">
 
         <!-- Main content area -->
-        <div style="flex-grow: 1; padding: 20px;">
-            <h2 style="color: #333; font-family: 'Verdana', sans-serif;">Products at Harry and Harriet's Hang-Gliding Haven</h2>
+        <div>
+            <h1 style="color: #cae7ff; font-family: 'Arial', sans-serif; font-size: 28px;">Products at Harry and Harriet's Hang-Gliding Haven</h1>
 
             <!-- Placeholder for an image -->
             <img src="hangglider.jpg" alt="Hang-gliding Image" style="width: 100%; max-width: 600px; height: auto; margin-bottom: 20px;">
 
             <!-- Product 1 -->
             <div style="margin-bottom: 40px;">
-                <h3 style="font-family: 'Georgia', serif; color: #D35400;"><u>The Nimbus 3000:</u> Elite Performance Hang Glider</h3>
+                <h3 style="font-family: 'Arial', serif; color: #D35400; font-size: 20px;"><u>The Nimbus 3000:</u> Elite Performance Hang Glider</h3>
                 <p><strong>Description:</strong> <span style="font-weight: bold; color: #E74C3C;"></span> The epitome of hang-gliding excellence, designed for those who <em>demand</em> only the best.</p>
-                <p><strong>Features:</strong> <span style="font-style: italic; color: #3498DB;">High-strength, lightweight carbon fiber composite.</span></p>
+                <p><strong>Features:</strong> <span style="color: black;">High-strength, lightweight carbon fiber composite.</span></p>
                 <p><strong>Price:</strong> <span style="font-weight: bold;">$4,500</span></p>
             </div>
 
             <!-- Product 2 -->
             <div style="margin-bottom: 40px;">
-                <h3 style="font-family: 'Georgia', serif; color: #D35400;">The SkySailor: Beginner's Hang Gliding Kit</h3>
-                <p><strong>Description:</strong> The SkySailor Kit is the perfect entry point for newcomers eager to take to the skies. This kit includes everything you need to start your hang-gliding journey with confidence...</p>
+                <h3 style="font-family: 'Arial', serif; color: #D35400; font-size: 20px;"><u>The SkySailor:</u> Beginner's Hang Gliding Kit</h3>
+                <p><strong>Description:</strong> The SkySailor Kit is the perfect entry point for newcomers eager to take to the skies. This kit includes everything you need to start your hang-gliding journey with confidence.</p>
                 
                 <!-- Unordered List -->
                 <strong>Features:</strong>
@@ -39,9 +36,32 @@
 
             <!-- Product 3 -->
             <div style="margin-bottom: 40px;">
-                <h3 style="font-family: 'Georgia', serif; color: #D35400;"><u>The AeroVenture:</u> Skydiving Parachute System</h3>
+                <h3 style="font-family: 'Arial', serif; color: #D35400; font-size: 20px;"><u>The AeroVenture:</u> Skydiving Parachute System</h3>
                 <p><strong>Description:</strong> The AeroVenture Parachute System is designed for both novice and experienced skydivers seeking reliability and performance</p>
-				<p><strong>Features:</strong> <span style="font-style: italic; color: #3498DB;">Best in class parachute material, strong cords</span></p>
+				<p><strong>Features:</strong> <span style="color: black;">Best in class parachute material, strong cords</span></p>
 				<p><strong>Price:</strong> <span style="font-weight: bold;">$3,500</span></p>
 			</div>
+			
+			<div style="margin-bottom: 40px;">
+                <h3 style="font-family: 'Arial', serif; color: #D35400; font-size: 20px;"><u>All Products</u></h3>
+                <ol>
+                    <li><strong>Sky Sailor,</strong> Price: $2,200</li>
+                    <li><strong>AeroVenture,</strong> Price: $3,500</li>
+					<li><strong>The Nimbus 3000,</strong> Price: $4,500</li>
+                </ol>
                 
+                <p>To download a PDF of our products click <a href="products.pdf" download>Here</a></p>
+            </div>
+			
+			<div style="margin-bottom: 40px;">
+				<p>Questions? Send us an Email <a href = "mailto: abc@example.com">Here</a></p>
+	
+	<footer>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>        
+</body>
+</html>
