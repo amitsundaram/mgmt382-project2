@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Harry and Harriet’s Hang-gliding Haven Services</title>
 <style>
-  /* CSS for aesthetic purposes */
   body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -83,11 +82,11 @@
 </p>
 <a href="https://amitsundaram.github.io/mgmt382-project2/product_page.html" target="_blank">Visit our partner website</a>
 
-<p class="date">Last Updated: <span id="updateDate"></span></p>
-
-<script>
-  document.getElementById("updateDate").innerHTML = new Date().toLocaleDateString();
-</script>
-
+    <footer>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script> 
 </body>
 </html>
